@@ -1,0 +1,90 @@
+.img-responsive {
+  padding: 10px 60px;
+  }
+
+.img-modal{
+  max-width: 40%;
+}
+
+/* Header */
+header {
+  background-color: #fff;
+}
+
+header hr.power-off::after {
+  background-color: #fff;
+  color: #1a242f;
+}
+
+header hr.power-off {
+  border-color: #1a242f;
+}
+
+/* Paneles */
+.panel-group .panel {
+  margin: 1% 1% 12px;
+  padding: 0;
+  overflow: hidden;
+  box-shadow: initial;
+  border: 1px solid #dddddd;
+}
+
+.panel-heading {
+  padding: 0;
+  margin: 0 auto;
+}
+
+.panel-title {
+  text-align: left;
+}
+
+.panel-title a {
+  cursor: pointer;
+  padding: 18px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  display: block;
+}
+
+.panel-title a:not(.collapsed),
+.panel-title a:hover,
+.panel-title a:active,
+.panel-title a:focus {
+  color: #444;
+  background-color: #ddd;
+  text-decoration: none;
+}
+
+.panel-title a::after {
+  content: '\02795';
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.panel-title a:not(.collapsed)::after {
+  content: "\2796";
+}
+
+/*footer*/
+#utn-logo img{
+  height: 170px;
+}
+
+/* Portfolio */
+#portfolio {
+  padding: 0;
+  margin-bottom: 50px;
+}
+
+#portfolio .portfolio-item {
+  margin: 0;
+}
+
+#portfolio .portfolio-item .portfolio-link {
+  height: 260px;
+  display: block;
+}

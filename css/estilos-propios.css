@@ -1,0 +1,226 @@
+º.btn-outline:hover,
+.btn-outline:focus {
+  color: #9aecea;
+}
+
+ul a .fa{
+  color: #f6b55d;
+}
+
+/* Header */
+header {
+  display: flex;
+  align-items: center; /* align vertical */
+  background-color: #9aecea;
+  height: 100vh;
+  min-height: 400px;
+  padding-top: 60px;
+}
+
+header .container {
+  padding: 0 10%;
+  width: 100%;
+}
+
+header span {
+  color: #1a242f;
+}
+
+header hr.power-off::after {
+  background-color: #9aecea;
+}
+
+/* Navbar */
+.navbar-default {
+  background-color: #233140;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color:#d09443;;
+}
+
+/* Portfolio */
+#portfolio,
+#portfolio .star-primary:after {
+  color: #1a242f;
+}
+
+#portfolio .star-primary {
+  border-color: #1a242f;
+}
+
+#portfolio .portfolio-item {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+#portfolio .portfolio-item .portfolio-link {
+  height: 260px;
+  display: flex;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption {
+  background-color: rgba(154, 236, 234, 0.9);
+  z-index: 3;
+}
+
+#portfolio .portfolio-item .portfolio-link img {
+  margin: auto;
+  max-height: 100%;
+  width: 100%;
+}
+
+/* Modales */
+.portfolio-modal .modal-content {
+  padding: 60px 0 30px
+}
+
+.portfolio-modal .close-modal {
+  width: 66px;
+  height: 66px;
+  top: 20px;
+  right: 20px;
+}
+
+.portfolio-modal .close-modal .lr,
+.portfolio-modal .close-modal .lr .rl {
+  height: 60px;
+}
+
+.portfolio-modal .wrapper-img {
+  display: flex;
+  align-items: center; /* align vertical */
+  height: 40vh;
+  margin-bottom: 10px;
+}
+
+.portfolio-modal .wrapper-img img {
+  margin: 0 auto;
+  max-height: 100%;
+}
+
+.modal-body hr.star-primary {
+  margin: 25px auto;
+}
+
+.modal-body .fa:before {
+  color: #2c3e50;
+}
+
+.modal-body .btn-social {
+  border-color: #2c3e50;
+}
+
+.modal-body .btn-social:hover {
+  border-color:#fff;
+}
+
+.modal-body .btn-outline {
+  margin-top: 0;
+}
+
+/* Scroll-top */
+.scroll-top .btn-primary,
+.scroll-top .btn-primary:focus {
+  background-color: #233140;
+  border-color: #2c3e50;
+}
+
+.scroll-top .btn-primary:hover {
+  background-color: #2c3e50;
+  border-color: #233140;
+}
+
+.scroll-top .fa-chevron-up {
+  position: relative;
+  right: 2px;
+  bottom: 3px;
+}
+
+/* Footer */
+.footer-above .row {
+  display: flex;
+}
+
+#footer-utn-logo {
+  align-self: center;
+}
+
+#utn-logo img{
+  height: 170px;
+}
+
+#copyright {
+  text-align: center;
+  width: 100%;
+}
+
+#logo img {
+  width: 100px;
+}
+
+
+.navbar-default .navbar-nav>li>a {
+    color: #f6b55d;
+}
+
+.navbar-default .navbar-brand {
+    color: #f6b55d;
+}
+
+
+footer {
+    color: #f6b55d;
+}
+
+.btn-outline {
+  color: #f6b55d;
+}
+.btn-social {
+      border: 2px solid #f6b55d;
+    }
+
+
+
+/* Responsive design */
+@media(max-width: 1200px) {
+  #portfolio .portfolio-item .portfolio-link {
+    height: 211.84px;
+  }
+}
+
+@media(max-width: 990px) {
+  #portfolio .portfolio-item .portfolio-link {
+    height: 158.88px;
+  }
+}
+
+@media(max-width: 767px) {
+  #portfolio .portfolio-item .portfolio-link {
+    height: 288.88px;
+  }
+
+  .portfolio-modal .close-modal {
+    top: 10px;
+    right: 10px;
+  }
+
+  .footer-above .row {
+    flex-direction: column;
+  }
+
+  #footer-contacto {
+    order: 1;
+  }
+
+  #footer-utn-logo {
+    order: 2;
+  }
+
+  #footer-social {
+    order: 3;
+  }
+}
